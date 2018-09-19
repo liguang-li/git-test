@@ -1,0 +1,5 @@
+git add file //stage the file
+git status -s //check the status
+git reset HEAD file //unstage the file
+git checkout file //rollback the file
+git commit 
