@@ -3,3 +3,9 @@ git status -s //check the status
 git reset HEAD file //unstage the file
 git checkout file //rollback the file
 git commit 
+
+
+
+git remote -v
+git remote add ssh_repo ssh:.....git
+
