@@ -11,10 +11,13 @@ git remote add ssh_repo ssh:.....git
 
 git remote remove ssh_repo
 
+git checkout -b test v1.1
+
+git config --global alias.zhuangtai status
+git config --global alias.st status
 
 git tag -a v1.1.1 -m "lightweight tag list"
 git tag -a v1.2 -m "test tag" hash-commit
-
 
 git remote show
 git push origin v1.1
@@ -25,3 +28,4 @@ git checkout MyTest
 git checkout -b MyTest 
 
 git log --graph --oneline --all //show log in all branches
+
