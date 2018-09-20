@@ -29,3 +29,7 @@ git checkout -b MyTest
 
 git log --graph --oneline --all //show log in all branches
 
+git merge MyTest //incorporate the MyTest into the current branch
+git branch -d MyTest //delete MyTest branch
+
+git push origin --delete MyTest
