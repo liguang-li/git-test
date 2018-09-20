@@ -10,3 +10,5 @@ git remote -v
 git remote add ssh_repo ssh:.....git
 
 git remote remove ssh_repo
+
+git checkout -b test v1.1
