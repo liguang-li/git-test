@@ -40,6 +40,10 @@ git branch --merged	//the branches have been merged into the current branch
 git branch --no-merged
 
 git pull rebase
+
+git cherry-pick hash-commit
+
+git rebase -i HEAD~n
 git checkout MyTest
 git rebase master
 git checkout master
