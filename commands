@@ -56,3 +56,5 @@ git merge MyTest
 git checkout master
 git merge MyTest
 
+git fetch origin
+git fetch origin MyTest:master //fetch origin/master to MyTest
