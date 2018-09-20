@@ -10,3 +10,12 @@ git remote -v
 git remote add ssh_repo ssh:.....git
 
 git remote remove ssh_repo
+
+
+git tag -a v1.1.1 -m "lightweight tag list"
+git tag -a v1.2 -m "test tag" hash-commit
+
+
+git remote show
+git push origin v1.1
+git push origin --tags
