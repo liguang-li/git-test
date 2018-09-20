@@ -39,6 +39,7 @@ git push origin --delete MyTest
 git branch --merged	//the branches have been merged into the current branch
 git branch --no-merged
 
+git pull rebase
 git checkout MyTest
 git rebase master
 git checkout master
