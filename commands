@@ -22,4 +22,6 @@ git push origin --tags
 
 git branch MyTest //Create one branch based on the current branch and named MyTest
 git checkout MyTest
+git checkout -b MyTest 
 
+git log --graph --oneline --all //show log in all branches
